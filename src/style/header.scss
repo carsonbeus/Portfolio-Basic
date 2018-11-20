@@ -1,0 +1,29 @@
+.header {
+    width: 2000px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+
+    &__leftColumn {
+
+    }
+
+    &__rightColumn {
+        display: grid;
+        grid-column: 3/4;
+        grid-template-columns: .5fr .5fr .5fr;
+        grid-gap: 10px;
+        justify-self: center;
+        align-items: center;
+        &__item {
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    }
+}
+
+

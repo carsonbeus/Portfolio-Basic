@@ -1,0 +1,53 @@
+.portfolioPage {
+    height: 1000px;
+    width: 1900px;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    &__portfolioPageWrapper {
+        grid-column: 2/3;
+        &__contentGrid {
+
+            &__portfolioWrapper {
+
+            }
+        }
+        &__contentGrid h1 {
+            font-weight: 900;
+            font-family: Roboto,sans-serif;
+            
+        }
+    }
+}
+
+// .introWrapper {
+//     display: grid;
+//     grid-column: 2/3;
+//     justify-content: center;
+//     grid-row: 2/3;
+//     align-content: center;
+//     font-size: 30px;
+//     font-weight: 500;
+
+//     &__nameWrapper {
+//         justify-self: center;
+//         padding: 10px;
+
+//     }
+
+//     &__description {
+//         justify-self: center;
+//         padding: 10px;
+
+//     }
+
+//     &__socialIcons {
+//         justify-self: center;
+//         padding: 10px;
+
+//     }
+// }
+
